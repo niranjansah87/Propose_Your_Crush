@@ -6,13 +6,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+
 .carousel {
   position: relative;
   z-index: 1;
@@ -87,7 +81,7 @@ body {
   top: 10px;
   left: 20px;
   transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
-  font-size: clamp(20px, 10vw, 80px);
+  font-size: clamp(15px, 5vw, 75px);
 }
 .carousel-item img {
   width: 100%;
@@ -132,45 +126,8 @@ body {
   opacity: 0.4;
 }
 
-.logo {
-  position: absolute;
-  z-index: 2;
-  top: 28px;
-  right: 28px;
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  border-radius: 50%;
-  opacity: 0.5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Orelo-sw-db", serif;
-  pointer-events: all;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  overflow: hidden;
-  padding-bottom: 0.1em;
-}
 
-.social {
-  position: absolute;
-  z-index: 10;
-  bottom: 20px;
-  right: 25px;
-  color: #fff;
-  opacity: 0.4;
-}
-.social a {
-  display: inline-block;
-  margin-left: 3px;
-}
-.social svg {
-  --fill: #fff;
-  width: 35px;
-  height: 35px;
-}
+
 
 .cursor {
   position: fixed;
