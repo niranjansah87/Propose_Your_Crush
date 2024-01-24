@@ -1,8 +1,8 @@
 body {
   overflow: hidden;
   font-family: "Roboto", serif;
-  background: linear-gradient(135deg, black, #220033);
-  background-clip: url('./star.mp4');
+  /* background: linear-gradient(135deg, black, #220033); */
+  background: url('https://64.media.tumblr.com/d6d0246ca0dffa230f03be2521b3210f/tumblr_obfjz6Bd9f1runoqyo2_r1_540.gif');
   background-size: cover;
   background-repeat: no-repeat;
 }
